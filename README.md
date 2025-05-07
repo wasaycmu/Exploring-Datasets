@@ -2,6 +2,23 @@
 
 # Dallas Animal Shelter Data Analysis
 
+## 🛠️ Technologies Used
+- **Programming Language**: Python  
+- **Libraries**: Pandas, NumPy, Matplotlib  
+- **Tools**: Jupyter Notebook, Chameleon Shelter Management Software
+
+## 🧪 Analytical Techniques
+- Data Cleaning and Preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Descriptive Statistics  
+- Data Aggregation and Grouping  
+- Data Visualization (Histograms, Bar Charts, etc.)  
+- Hypothesis Testing  
+- Trend Analysis  
+- Predictive Modeling (planned)
+
+---
+
 ## Project Overview
 
 The **Dallas Animal Shelter Data** reflects the operational processes carried out by shelter personnel assisting citizens with surrendered and stray animals. The shelter utilizes Chameleon software to document its operations, which are updated daily to improve citizens' understanding of shelter activities. The dataset spans from October 1, 2017, to the present, with the focus being on Q2, Q3, and Q4 of 2019, and Q1 of 2020.
@@ -54,23 +71,13 @@ The data was grouped by animal type, breed, and intake subtype to understand the
 Various visualizations were created to gain insights into animal outcomes and shelter operations:
 - **Histogram of Outcome Times**: A histogram was plotted to visualize how long animals stayed at the shelter before receiving their final outcome. The distribution showed a quad-modal pattern, with peaks at day 0-2, day 5, day 10, and day 30, suggesting different types of shelter operations (e.g., euthanasia, adoption, medical care).
 
-
-
 ### Hypothesis Testing
 We hypothesize that animals remaining in the shelter for longer periods (5, 10, 30 days) are typically those requiring medical treatment or waiting for adoption. Further analysis will be conducted to validate this hypothesis.
 
+## Future Steps
+- **Trend Analysis**: Compare 2019-2020 data with other years to assess the impact of the COVID-19 pandemic.
+- **Predictive Modeling**: Build models to forecast outcomes based on animal attributes, helping to optimize operations and improve welfare.
 
-### Future Steps
- - Trend Analysis: We will compare the data from 2019-2020 with data from other years to understand the impact of the COVID-19 pandemic on animal shelter operations.
+## Conclusion
 
- - Predictive Modeling: We aim to build predictive models to forecast outcomes based on animal attributes, helping to optimize shelter operations and improve animal welfare.
-
-
-### Conclusion
 This analysis serves as a starting point for improving the operational efficiency of animal shelters. By understanding the factors influencing animal outcomes and the trends in incoming animals, the shelter can allocate resources more effectively, prioritize at-risk animals, and increase adoption rates.
-
-
-### Technologies Used
- - Python (Pandas, NumPy, Matplotlib)
-
- - Jupyter Notebook for interactive data exploration and visualization
